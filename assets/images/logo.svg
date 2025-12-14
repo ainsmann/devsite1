@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Simply Made IT logo">
-  <defs>
-    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#0B5FFF"/>
-      <stop offset="1" stop-color="#00C389"/>
-    </linearGradient>
-  </defs>
-  <rect x="6" y="6" width="36" height="36" rx="10" fill="url(#g)" opacity="0.18"/>
-  <path d="M14 30V18l6 6 6-6 8 8" stroke="#0B5FFF" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <circle cx="34" cy="30" r="3" fill="#00C389"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect x="6" y="6" width="36" height="36" rx="10" fill="#0B5FFF" opacity="0.18"/></svg>

@@ -5,100 +5,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Simply Made IT | IT Support & Consultancy UK</title>
   <meta name="description" content="Simply Made IT provides expert IT support, managed services, network solutions, and tech consultancy for UK businesses. Contact us today for a quote." />
-  <link rel="canonical" href="https://simplymadeit.com" />
-  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
   <meta property="og:title" content="Simply Made IT | IT Support & Consultancy UK" />
   <meta property="og:description" content="Simply Made IT provides expert IT support, managed services, network solutions, and tech consultancy for UK businesses. Contact us today for a quote." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://simplymadeit.com" />
-  <meta property="og:image" content="/assets/images/logo.svg" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Simply Made IT | IT Support & Consultancy UK" />
-  <meta name="twitter:description" content="Simply Made IT provides expert IT support, managed services, network solutions, and tech consultancy for UK businesses. Contact us today for a quote." />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Simply Made IT",
-    "url": "https://simplymadeit.com",
-    "email": "info@simplymadeit.com",
-    "areaServed": "United Kingdom",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Manchester",
-      "addressCountry": "GB"
-    },
-    "logo": "https://simplymadeit.com/assets/images/logo.svg",
-    "sameAs": [
-      "https://www.linkedin.com/company/simplymadeit",
-      "https://x.com/simplymadeit"
-    ]
-  }
-  </script>
+  <meta property="og:image" content="assets/images/logo.svg" />
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <header>
   <div class="container nav" role="navigation" aria-label="Main">
-    <a class="logo" href="/" aria-label="Simply Made IT home">
-      <img src="/assets/images/logo.svg" alt="Simply Made IT logo" width="36" height="36" />
+    <a class="logo" href="index.html" aria-label="Simply Made IT home">
+      <img src="assets/images/logo.svg" alt="Simply Made IT logo" width="36" height="36" />
       <span class="logo-title">Simply Made IT</span>
     </a>
     <nav class="nav-links" aria-label="Primary">
-      <a href="/">Home</a>
-      <a href="/about.html">About</a>
-      <a href="/services.html">Services</a>
-      <a href="/contact.html">Contact</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
     </nav>
-    <div class="nav-cta"><a href="/quote.html" class="btn btn-primary">Get a Quote</a></div>
+    <div class="nav-cta"><a href="quote.html" class="btn btn-primary">Get a Quote</a></div>
     <button class="mobile-toggle" aria-label="Toggle navigation">☰</button>
   </div>
 </header>
 <main id="main" class="container">
 
-<section class="hero" aria-labelledby="hero-title">
+<section class="hero">
   <div>
-    <h1 id="hero-title" data-bind="hero.headline">Fast, reliable IT support when you need it</h1>
+    <h1 data-bind="hero.headline">Fast, reliable IT support when you need it</h1>
     <p data-bind="site.subtagline">Reliable IT Solutions for Small Business Technology Needs</p>
     <div class="hero-ctas">
-      <a class="btn btn-primary" href="/quote.html" data-bind="hero.cta_primary">Get a Quote</a>
-      <a class="btn btn-secondary" href="/contact.html" data-bind="hero.cta_secondary">Contact Us</a>
+      <a class="btn btn-primary" href="quote.html" data-bind="hero.cta_primary">Get a Quote</a>
+      <a class="btn btn-secondary" href="contact.html" data-bind="hero.cta_secondary">Contact Us</a>
     </div>
   </div>
-  <div class="hero-art" aria-hidden="true">
-    <svg viewBox="0 0 600 360" role="img" aria-label="Abstract IT support graphic">
-      <rect x="20" y="20" width="560" height="200" rx="18" fill="#eaf2ff" stroke="#0B5FFF"/>
-      <circle cx="120" cy="280" r="36" fill="#0B5FFF" opacity="0.15" />
-      <circle cx="180" cy="280" r="24" fill="#00C389" opacity="0.6" />
-      <rect x="240" y="260" width="140" height="40" rx="8" fill="#0B5FFF" opacity="0.2" />
-      <path d="M80 80h440" stroke="#0B5FFF" stroke-width="4" opacity="0.35" />
-      <path d="M80 120h440" stroke="#0B5FFF" stroke-width="4" opacity="0.35" />
-      <path d="M80 160h220" stroke="#0B5FFF" stroke-width="4" opacity="0.35" />
-    </svg>
-  </div>
+  <div class="hero-art" aria-hidden="true"><img alt="placeholder" src="assets/images/logo.svg"></div>
 </section>
-
-<section class="section" aria-labelledby="svc-title">
-  <h2 id="svc-title">Services at a glance</h2>
+<section class="section">
+  <h2>Services at a glance</h2>
   <p class="lead">End‑to‑end support for small businesses: managed services, consulting, networks, cloud, and recovery.</p>
-  <div id="services-cards" class="cards">
-    <!-- populated by JS from content.json -->
-  </div>
+  <div id="services-cards" class="cards"></div>
 </section>
-
-<section class="section" aria-labelledby="cta-title">
-  <h2 id="cta-title">Ready to simplify your IT?</h2>
-  <p class="lead">Speak to our friendly team for fast, practical advice.</p>
-  <div class="hero-ctas">
-    <a class="btn btn-primary" href="/quote.html">Request a Quote</a>
-    <a class="btn btn-secondary" href="/contact.html">Contact Us</a>
-  </div>
+<section class="section">
+  <h2>What clients say</h2>
+  <div id="testimonials" class="testimonials"></div>
 </section>
-
-<section class="section" aria-labelledby="test-title">
-  <h2 id="test-title">What clients say</h2>
-  <div id="testimonials" class="testimonials">
-    <!-- populated by JS -->
+<section class="section" aria-labelledby="newsletter-title">
+  <h2 id="newsletter-title">Stay in the loop</h2>
+  <p class="lead">Sign up for practical IT tips, security updates, and service news.</p>
+  <div class="card">
+    <form id="newsletter-form" data-validate aria-label="Newsletter sign-up">
+      <div class="form-row">
+        <div>
+          <label for="nl-email">Email</label>
+          <input id="nl-email" name="email" type="email" required aria-required="true" placeholder="you@company.co.uk" />
+        </div>
+        <div>
+          <label for="nl-name">Name (optional)</label>
+          <input id="nl-name" name="name" type="text" />
+        </div>
+      </div>
+      <div class="form-actions">
+        <button class="btn btn-primary" type="submit">Subscribe</button>
+        <span class="help">We respect your privacy. Unsubscribe anytime.</span>
+      </div>
+      <div class="form-message" aria-live="polite"></div>
+    </form>
   </div>
 </section>
 
@@ -114,17 +87,17 @@
     </section>
     <nav class="footer-nav" aria-label="Footer">
       <strong>Navigation</strong>
-      <a href="/">Home</a>
-      <a href="/about.html">About</a>
-      <a href="/services.html">Services</a>
-      <a href="/contact.html">Contact</a>
-      <a href="/quote.html">Get a Quote</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+      <a href="quote.html">Get a Quote</a>
     </nav>
     <nav class="footer-nav" aria-label="Legal">
       <strong>Legal</strong>
-      <a href="/privacy.html">Privacy Policy</a>
-      <a href="/terms.html">Terms of Service</a>
-      <a href="/cookies.html">Cookie Policy</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+      <a href="cookies.html">Cookie Policy</a>
     </nav>
   </div>
   <div class="container footer-bottom">
@@ -135,14 +108,7 @@
       <a id="social-github" href="#" aria-label="GitHub">GitHub</a>
     </div>
   </div>
-  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie consent">
-    <div><strong>We use cookies</strong> to improve your experience and measure traffic (anonymous). You can accept or decline analytics cookies.</div>
-    <div class="cookie-actions">
-      <button class="accept">Accept</button>
-      <button class="decline">Decline</button>
-    </div>
-  </div>
 </footer>
-<script src="/assets/js/main.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
