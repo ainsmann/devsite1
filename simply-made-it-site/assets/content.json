@@ -1,0 +1,98 @@
+{
+  "site": {
+    "name": "Simply Made IT",
+    "domain": "https://simplymadeit.com",
+    "email": "info@simplymadeit.com",
+    "phone": "+44 161 000 0000",
+    "office_city": "Manchester",
+    "office_footer": "Denton M342",
+    "tagline": "Professional IT Support & Consulting in the UK",
+    "subtagline": "Reliable IT Solutions for Small Business Technology Needs",
+    "ga_measurement_id": "G-XXXXXXX"
+  },
+  "hero": {
+    "headline": "Fast, reliable IT support when you need it",
+    "cta_primary": "Get a Quote",
+    "cta_secondary": "Contact Us"
+  },
+  "mission": "We make technology simple, reliable and secure for growing UK businesses.",
+  "services": [
+    {
+      "key": "managed-it",
+      "title": "Managed IT Support",
+      "desc": "Proactive monitoring, patching, and helpdesk services to keep your business running smoothly.",
+      "benefits": [
+        "24/7 monitoring and alerts",
+        "Device and user management",
+        "Clear SLAs and reporting"
+      ]
+    },
+    {
+      "key": "consultancy",
+      "title": "IT Consultancy & Strategy",
+      "desc": "Technology roadmaps, vendor selection, and project delivery aligned to your business goals.",
+      "benefits": [
+        "Pragmatic, cost-aware advice",
+        "Security-first planning",
+        "Cloud and on\u2011prem integration"
+      ]
+    },
+    {
+      "key": "network-security",
+      "title": "Network Setup & Security",
+      "desc": "Secure, scalable networks with Wi\u2011Fi, firewalls, VPNs and zero\u2011trust principles.",
+      "benefits": [
+        "Hardened configurations",
+        "Segmentation and policy control",
+        "Remote access that\u2019s safe"
+      ]
+    },
+    {
+      "key": "support",
+      "title": "Remote Troubleshooting & On\u2011Site Assistance",
+      "desc": "Responsive support to resolve incidents remotely or on\u2011site across Greater Manchester.",
+      "benefits": [
+        "Rapid response",
+        "Qualified engineers",
+        "Transparent communication"
+      ]
+    },
+    {
+      "key": "cloud",
+      "title": "Cloud Integration & Support",
+      "desc": "M365, Azure, Google Workspace and SaaS integrations configured for performance and security.",
+      "benefits": [
+        "Migration planning",
+        "Backup and DR for cloud",
+        "Identity and access management"
+      ]
+    },
+    {
+      "key": "backup-recovery",
+      "title": "Data Backup & Recovery",
+      "desc": "Robust backups, disaster recovery runbooks, and restore testing you can trust.",
+      "benefits": [
+        "RPO/RTO aligned to needs",
+        "Encrypted off\u2011site copies",
+        "Regular recovery tests"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Small Business Owner",
+      "quote": "Simply Made IT transformed our tech \u2013 faster systems and peace of mind.",
+      "role": "Retail, Manchester"
+    },
+    {
+      "author": "Operations Manager",
+      "quote": "Clear advice, quick fixes, and no jargon. Exactly what we needed.",
+      "role": "Professional Services"
+    }
+  ],
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/simplymadeit",
+    "twitter": "https://x.com/simplymadeit",
+    "github": "https://github.com/simplymadeit"
+  }
+}
